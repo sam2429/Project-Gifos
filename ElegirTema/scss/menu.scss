@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:400,400i,500,500i&display=swap');
+
+@mixin day {
+    background: #F7C9F3;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+@mixin nigth {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+@mixin dayHover {
+    background: #FFF4FD;
+        border: 1px solid #CCA6C9;
+        box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+@mixin nigthHover {
+    background: #2E32FB;
+    border: 1px solid rgba(51,53,143,0.20);
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+@mixin rect-day {
+    background: #F0F0F0;
+border: 1px solid #808080;
+box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+@mixin rect-nigth {
+    background: #EE3EFE;
+border: 1px solid #110038;
+box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+@mixin menusec {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+@mixin p {
+    font-family: 'ChakraPetch',sans-serif;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+@mixin pbutton {
+    font-family: 'ChakraPetch',sans-serif;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul ,li {
+    list-style: none;
+}
+
+
+.ctn{
+    display: flex;
+    position:absolute;
+    width: auto;
+    height: 38px;
+
+.ctn-sec {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    position:absolute;
+
+        li{
+
+        &.boton{
+           
+            margin: 0;
+            vertical-align: middle;
+           position: relative;
+                     p {
+                          @include p;
+                           margin: 0;
+                           line-height: 36px;
+
+                           &#two {
+                               
+                               width: 131px;
+                               height: 36px;
+                              
+                           }
+                           &#three {
+                            width: 36px;
+                            height: 36px;
+                           }
+                     }
+                 }
+
+
+        }
+}
+}
+
+.ctn-menu-sec-sec{
+    position: relative;
+    list-style: none;
+  display: block;
+
+    .menu-sec-sec{
+    width: 170px;
+    height: 102px;
+    padding: 10px;
+    
+
+    @include menusec;
+
+        .rectangular{
+        width: 150px ;
+        height: 36px;
+        margin-bottom: 10px;
+        position: relative;
+        cursor: pointer;
+      // @include rectangular;
+
+    //    &:hover{
+    //     @include dayHover;
+    //    }
+
+        }
+    }
+}
+
+.nigth{
+    @include nigth;
+    @include pbutton;
+    
+     p:hover{
+        position: relative;
+        cursor: pointer;
+        margin: 2px;
+        background: #CE36DB;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    }
+}
+
+
+.day {
+    @include day;
+    @include pbutton;
+     p:hover{
+        position: relative;
+        cursor: pointer;
+        margin: 2px;
+        background: #E6BBE2;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    }
+}
+.day1 {
+    @include day;
+    @include pbutton;
+    
+     p:hover{
+        position: relative;
+        cursor: pointer;
+        margin: 2px;
+        
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    }
+}
+.rect-day {
+    @include rect-day;
+
+    &:hover{
+        @include dayHover;
+       }
+}
+.rect-nigth {
+    
+    &:hover{
+        @include nigthHover;
+    }
+}

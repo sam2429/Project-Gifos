@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch:400,400i,500,500i&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.ctn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 38px;
+}
+
+.ctn .ctn-sec {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ctn .ctn-sec li.boton {
+  margin: 0;
+  vertical-align: middle;
+  position: relative;
+}
+
+.ctn .ctn-sec li.boton p {
+  font-family: 'ChakraPetch',sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  margin: 0;
+  line-height: 36px;
+}
+
+.ctn .ctn-sec li.boton p#two {
+  width: 131px;
+  height: 36px;
+}
+
+.ctn .ctn-sec li.boton p#three {
+  width: 36px;
+  height: 36px;
+}
+
+.ctn-menu-sec-sec {
+  position: relative;
+  list-style: none;
+}
+
+.ctn-menu-sec-sec .menu-sec-sec {
+  width: 170px;
+  height: 102px;
+  padding: 10px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.ctn-menu-sec-sec .menu-sec-sec .rectangular {
+  width: 150px;
+  height: 36px;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.nigth {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  font-family: 'ChakraPetch',sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.nigth p:hover {
+  position: relative;
+  cursor: pointer;
+  margin: 2px;
+  background: #CE36DB;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.day {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  font-family: 'ChakraPetch',sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.day p:hover {
+  position: relative;
+  cursor: pointer;
+  margin: 2px;
+  background: #E6BBE2;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.rect-day {
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.rect-day:hover {
+  background: #FFF4FD;
+  border: 1px solid #CCA6C9;
+  -webkit-box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.rect-nigth:hover {
+  background: #2E32FB;
+  border: 1px solid rgba(51, 53, 143, 0.2);
+  -webkit-box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+/*# sourceMappingURL=menu.css.map */
